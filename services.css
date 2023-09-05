@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WK Consulting Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CSS styles go here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5; /* Set a background color as a fallback */
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 48px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 36px;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        /* Background Image for the About Us Section */
+        .about-background {
+            background-image: url('about-background.jpg'); /* Replace 'about-background.jpg' with your background image path */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #fff; /* Set text color to white or another suitable color for better contrast */
+            padding: 40px; /* Add some padding to make text more readable */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WK Consulting Services</h1>
+    </header>
+    <div class="container">
+        <section id="about" class="about-background">
+            <h2>About Us</h2>
+            <p>Welcome to WK Consulting Services, your trusted partner for all your consulting needs. We are committed to providing top-notch services and solutions to our clients. Our team of experts is dedicated to excellence and innovation.</p>
+            <p>With years of experience and a track record of success, we deliver results that exceed expectations. Let us help you achieve your goals
